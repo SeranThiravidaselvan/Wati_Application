@@ -1,0 +1,75 @@
+.p-button.p-fileupload-choose {
+   width: 100%;
+   background: transparent;
+   color: green;
+   border: 1px solid green;
+   box-shadow: none;
+}
+
+.p-button .p-button-icon-left {
+   display: none;
+}
+
+.p-inputtext {
+   box-shadow: none;
+   border: none;
+   background-color: aliceblue;
+}
+
+.option-btn {
+   box-shadow: none;
+   border: none;
+   background-color: transparent;
+   padding: 10px 0;
+   color: #ffff;
+}
+
+.btn-del {
+   box-shadow: none;
+   border: none;
+   border-radius: 10px;
+   background-color: #ff848488;
+   color: red;
+}
+
+.btn-com {
+   box-shadow: none;
+   border: none;
+   border-radius: 5px;
+   background-color: green;
+}
+
+.btn-save {
+   box-shadow: none;
+   border: none;
+   padding: 12px 20px;
+   border-radius: 5px;
+   background-color: green;
+}
+
+.btn-cancel {
+   color: green;
+   box-shadow: none;
+   border: 1px solid green;
+   border-radius: 5px;
+   background-color: white;
+}
+
+.message_icon {
+   padding: 7px 9px;
+   margin-right: 7px;
+   background: #ffffff4d;
+   border-radius: 100%;
+}
+
+a:hover {
+   background-color: #ffffff;
+
+   span {
+      color: green;
+   }
+
+   i {
+      color: green;
+   }
+}

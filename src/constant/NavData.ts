@@ -1,0 +1,60 @@
+import { NavItem } from '../types/layout';
+
+export const data: NavItem[] = [
+   {
+      label: 'ChatBot',
+      icon: 'pi pi-fw pi-home',
+      path: '/chatbot',
+      disabled: false,
+      visible: true,
+      role: ['Admin'],
+   },
+   {
+      label: 'Chat Inbox',
+      icon: 'pi pi-fw pi-inbox',
+      path: '/chatinbox',
+      disabled: false,
+      visible: true,
+      role: ['Admin'],
+   },
+   //  {
+   //     label: Routes.TENDER.name,
+   //     icon: 'pi pi-fw pi-hammer',
+   //     path: Routes.TENDER.value,
+   //     disabled: false,
+   //     visible: true,
+   //     role: ['Admin', 'User'],
+   //  },
+   //  {
+   //     label: Routes.VENDOR.name,
+   //     icon: 'pi pi-fw pi-users',
+   //     path: Routes.VENDOR.value,
+   //     disabled: false,
+   //     visible: true,
+   //     role: ['Admin'],
+   //  },
+   //  {
+   //     label: Routes.RAMINFO.name,
+   //     icon: 'pi pi-fw pi-warehouse',
+   //     path: Routes.RAMINFO.value,
+   //     disabled: false,
+   //     visible: true,
+   //     role: ['Admin'],
+   //  },
+   //  {
+   //     label: Routes.REPORT.name,
+   //     icon: 'pi pi-fw pi-clipboard',
+   //     path: Routes.REPORT.value,
+   //     disabled: false,
+   //     visible: true,
+   //     role: ['Admin'],
+   //  },
+   //  {
+   //     label: Routes.USER.name,
+   //     icon: 'pi pi-fw pi-user-plus',
+   //     path: Routes.USER.value,
+   //     disabled: false,
+   //     visible: true,
+   //     role: ['Admin'],
+   //  },
+];
